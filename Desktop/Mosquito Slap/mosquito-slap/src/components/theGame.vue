@@ -1,7 +1,7 @@
 <template>
     <div>
       <h1>Catch the mosquito!</h1>
-      <p>Can you beat 2000ms?</p>
+      <p>Can you beat 3000 ms?</p>
       <button @click="startGame" v-if="!started">Start</button>
       <button @click="endGame" v-else :class="{ mosquitoButton: isMosquitoButton }">{{ buttonText }}</button>
     </div>
